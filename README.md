@@ -42,4 +42,4 @@ $ npm  test
 ```
 
 ## Deploy Project 
-[Heroku](https://restful-api-getir.herokuapp.com/) Project deployed on heroku.
+[Heroku](https://git.heroku.com/pure-beach-41752.git) Project deployed on heroku.
