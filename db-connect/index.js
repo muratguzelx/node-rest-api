@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 module.exports = () => {
-  return mongoose.connect("mongodb://dbUser:dbPassword1@ds249623.mlab.com:49623/getir-case-study", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
+  return mongoose.connect("mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
     .then(() => {
       console.log('connected to DB successfully')
     })
